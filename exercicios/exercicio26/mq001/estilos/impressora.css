@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+
+header {
+
+
+
+    background-color: rgb(51, 49, 49);
+}
+
+h1{
+    display: none;
+}
+*{
+    font-size: x-large;
+}
