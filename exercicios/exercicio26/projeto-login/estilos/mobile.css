@@ -1,0 +1,126 @@
+*{
+
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main{
+    position: absolute;
+    background-color:rgba(255, 255, 255, 0.658);
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 50vw;
+    height: 30vh;
+    border-radius: 5px ;
+    margin-right: 50%;
+}
+
+.entrar {
+
+    width: 180px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: rgb(13, 170, 170);
+    color: white;
+    cursor: pointer;
+}
+.entrar:hover{
+
+    background-color: antiquewhite;
+    color: black;
+
+
+
+}
+.esqueci {
+
+    width: 180px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: lightblue;
+    color: black;
+    cursor: pointer;
+}
+.esqueci:hover{
+
+    background-color: antiquewhite;
+    color: black;
+
+
+
+}
+.email{
+    
+    
+    border-radius: 10px;
+    
+    width: 200px;
+    margin: auto;
+    padding: 0px;
+    
+    
+
+
+}
+.senha{
+    
+   
+    border-radius: 10px;
+    width: 200px;
+    margin: auto;
+    padding: 0px;
+    height: 25px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    
+    
+
+
+}
+body{
+
+    background-image: url(../imagens/fundomobile.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+
+
+
+
+}
+.iemail{
+    
+    border-radius: 5px;
+}
+.iemail:focus{
+    outline:none;
+    
+}
+.isenha{
+    
+    border-radius: 5px;
+}
+.isenha:focus{
+    outline:none;
+    
+}
+
+@media screen and (min-width:768px){
+
+body{
+
+    background-position: center center ;
+
+
+
+}
+
+
+}
+
